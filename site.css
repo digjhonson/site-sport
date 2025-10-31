@@ -7,8 +7,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #ffff;
+  color: #1f2937;
   line-height: 1.6;
 }
 
@@ -50,7 +50,7 @@ p{
 }
  
 header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -65,7 +65,7 @@ nav {
 }
  
 nav ul{
-    font-size: 1rem;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     list-style: none; 
@@ -76,11 +76,11 @@ nav a{
     color: #e5e7eb;
     border-radius: 50px;
     padding: 0px 20px;
-   
+    text-decoration: none;
 }
 nav a:hover{
     background-color: #1b3367;
-    color: #e5e7eb;
+  
 }
  
 main{
@@ -99,7 +99,7 @@ section#intro h2 {
 }
  
 section#intro p {
-  color: #555;
+  color: #1f2937;
   margin-bottom: 15px;
 }
  
@@ -133,7 +133,7 @@ section#jogos h3 {
  
 .jogo li {
   display: block;
-  color: #555;
+  color: #1f2937;
   font-size: 0.95rem;
 }
  
@@ -174,7 +174,7 @@ thead {
 th, td {
   padding: 12px 16px;
   text-align: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #8d8d8e;
 }
  
 section#contato {
@@ -188,7 +188,7 @@ section#contato h3 {
 }
  
 form {
-  background: white;
+  background: #e5e7eb;
   max-width: 600px;
   margin: 0 auto;
   padding: 30px;
@@ -201,14 +201,14 @@ form label {
   display: block;
   margin-top: 15px;
   font-weight: 500;
-  color: #333;
+  color: #1f2937;
 }
  
 form input, form textarea {
   width: 100%;
   padding: 10px;
   margin-top: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #e5e7eb;
   border-radius: 6px;
   font-size: 1rem;
 }
@@ -223,7 +223,7 @@ button {
   width: 180px;
   margin: 20px auto 0;
   background: linear-gradient(90deg, #2536eb, #16a34a);
-  color: white;
+  color: #e5e7eb;
   border: none;
   padding: 12px;
   border-radius: 8px;
